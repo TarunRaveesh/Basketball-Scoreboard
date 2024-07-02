@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'CursedTimerULiL';
+    src: url('/Fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CursedTimerULiL', sans-serif;
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#home, #guest {
+    font-family: 'CursedTimerULiL', sans-serif;
+    margin: -20px;
+    color: #F94F6D;
+    text-align: center;
+    padding: 20px 50px 0px;
+    font-size: 126px;
+    background-color: #080001 ;
+    border: solid 2px #080001;
+    border-radius: 5px;
+    width: 150px;
+}
+
+button {
+    color: #9AABD8;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+    margin-top: 35px;
+    background-color: #1B244A;
+    font-family: 'CursedTimerULiL', sans-serif;
+    padding: 10px 10px 7px;
+}
