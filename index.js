@@ -34,3 +34,10 @@ function threeG() {
     guestScore += 3
     guestEl.textContent = guestScore
 }
+
+function newGame() {
+    homeScore = 0
+    guestScore = 0
+    homeEl.textContent = homeScore
+    guestEl.textContent = guestScore
+}

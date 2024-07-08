@@ -7,6 +7,7 @@ body {
     font-family: 'CursedTimerULiL', sans-serif;
     margin: 0;
     background-color: #1B244A;
+    text-align: center;
 }
 
 .container {
@@ -44,4 +45,10 @@ button {
     background-color: #1B244A;
     font-family: 'CursedTimerULiL', sans-serif;
     padding: 10px 10px 7px;
+}
+
+#newGame {
+    padding: 10px 15px 5px;
+    font-size: 20px;
+    background-color: #080001;
 }
